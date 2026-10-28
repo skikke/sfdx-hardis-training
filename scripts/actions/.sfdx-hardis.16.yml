@@ -1,0 +1,9 @@
+commandsPostDeploy:
+  - id: 8a42eb37-e21c-4316-80e3-7417ebead5ce
+    label: Handover Item Templates
+    type: data
+    command: ""
+    parameters:
+      sfdmuProject: HeliosHandoverItemTemplates
+    runOnlyOnceByOrg: true
+    context: process-deployment-only
